@@ -1,0 +1,4 @@
+[
+  { "$ref": "./schemas/admin.json" },
+  { "$ref": "./schemas/user.json" }
+]

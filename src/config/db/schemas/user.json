@@ -1,0 +1,73 @@
+{
+    "table_name": "users",
+    "fields": [
+      {
+        "name": "user_id",
+        "type": "SERIAL PRIMARY KEY"
+      },
+      {
+        "name": "name",
+        "type": "VARCHAR(100) NOT NULL"
+      },
+      {
+        "name": "email",
+        "type": "VARCHAR(150)  NULL"
+      },
+      {
+        "name": "password",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+       {
+        "name": "age",
+        "type": "VARCHAR(10) NOT NULL"
+      },
+      {
+        "name": "DOB",
+        "type": "VARCHAR(100) NOT NULL"
+      },
+      {
+        "name": "user_cast",
+        "type": "VARCHAR(10) NOT NULL"
+      },
+      {
+        "name": "father_mobile",
+        "type": "VARCHAR(15) NOT NULL"
+      },
+     {
+        "name": "mobile",
+        "type": "VARCHAR(15) NOT NULL"
+      }, 
+        {
+        "name": "native_place",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+       {
+        "name": "current_place",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      {
+        "name": "address",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+       {
+        "name": "marital_status",
+        "type": "BOOLEAN NOT NULL"
+      },
+       {
+        "name": "occupation",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+       {
+        "name": "education",
+        "type": "VARCHAR(255) NOT NULL"
+      },
+      {
+        "name": "created_at",
+        "type": "TIMESTAMP DEFAULT NOW()"
+      },
+      {
+        "name": "updated_at",
+        "type": "TIMESTAMP DEFAULT NOW()"
+      }
+    ]
+  }
